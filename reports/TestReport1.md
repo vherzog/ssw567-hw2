@@ -1,7 +1,7 @@
 # Test Report
 This test report contains the results of running TestTriangle on the original (buggy) [Triangle.py](../Triangle.py) code.
 
-| Test ID | Input | Expected Results | Actual Result | Pass or Fail | |
+| Test ID | Input | Expected Results | Actual Result | Pass or Fail |
 |---|---|---|---|---|
 | testInvalidFloatInputA | (10.0,7,4) | InvalidInput | InvalidInput | Pass |
 | testInvalidFloatInputB | (10,'7',4) |  InvalidInput | InvalidInput  | Pass |
