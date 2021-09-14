@@ -19,9 +19,9 @@ This test report contains the results of running TestTriangle on the original (b
 | testInvalidUnderMinInputB | (1,0,1) |  InvalidInput | InvalidInput  | Pass |
 | testInvalidUnderMinInputC | (1,1,0) |  InvalidInput | InvalidInput  | Pass |
 | testValidEquilateralTriangles | (1,1,1) | Equilateral |  | Fail |
-| testValidIsoscelesTriangleA | (3,2,2) | Isosceles |  | Fail |
-| testValidIsoscelesTriangleB | (2,3,2) | Isosceles |  | Fail |
-| testValidIsoscelesTriangleC | (2,2,3) | Isosceles |  | Fail |
+| testValidIsoscelesTriangleA | (3,2,2) | Isosceles | InvalidInput | Fail |
+| testValidIsoscelesTriangleB | (2,3,2) | Isosceles | InvalidInput | Fail |
+| testValidIsoscelesTriangleC | (2,2,3) | Isosceles | InvalidInput | Fail |
 | testValidRightTriangleA | (3,4,5) | Right | InvalidInput | Fail |
 | testValidRightTriangleB | (5,3,4) | Right | InvalidInput | Fail |
 | testValidRightTriangleC | (4,5,3) | Right | InvalidInput | Fail |
