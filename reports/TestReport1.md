@@ -18,7 +18,7 @@ This test report contains the results of running TestTriangle on the original (b
 | testInvalidUnderMinInputA | (0,1,1) |  InvalidInput | InvalidInput  | Pass |
 | testInvalidUnderMinInputB | (1,0,1) |  InvalidInput | InvalidInput  | Pass |
 | testInvalidUnderMinInputC | (1,1,0) |  InvalidInput | InvalidInput  | Pass |
-| testValidEquilateralTriangles | (1,1,1) | Equilateral |  | Fail |
+| testValidEquilateralTriangles | (1,1,1) | Equilateral | InvalidInput | Fail |
 | testValidIsoscelesTriangleA | (3,2,2) | Isosceles | InvalidInput | Fail |
 | testValidIsoscelesTriangleB | (2,3,2) | Isosceles | InvalidInput | Fail |
 | testValidIsoscelesTriangleC | (2,2,3) | Isosceles | InvalidInput | Fail |
