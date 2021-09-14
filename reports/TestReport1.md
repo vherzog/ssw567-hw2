@@ -9,9 +9,9 @@ This test report contains the results of running TestTriangle on the original (b
 | testInvalidOverMaxInputA | (201,200,200) |  InvalidInput | InvalidInput  | Pass |
 | testInvalidOverMaxInputB | (200,201,200) |  InvalidInput | InvalidInput  | Pass |
 | testInvalidOverMaxInputC | (200,200,201) |  InvalidInput | InvalidInput  | Pass |
-| testInvalidStringInputA | ('10',7,4) | InvalidInput | ERROR | Fail | |
-| testInvalidStringInputB | (10,'7',4) | InvalidInput | ERROR | Fail | |
-| testInvalidStringInputC | (10,7,'4') | InvalidInput | ERROR | Fail | |
+| testInvalidStringInputA | ('10',7,4) | InvalidInput | ERROR | Fail |
+| testInvalidStringInputB | (10,'7',4) | InvalidInput | ERROR | Fail |
+| testInvalidStringInputC | (10,7,'4') | InvalidInput | ERROR | Fail |
 | testInvalidSumSidesA | (10,7,2) |  InvalidInput | InvalidInput  | Pass |
 | testInvalidSumSidesB | (7,10,2) |  InvalidInput | InvalidInput  | Pass |
 | testInvalidSumSidesC | (7,2,10) |  InvalidInput | InvalidInput  | Pass |
