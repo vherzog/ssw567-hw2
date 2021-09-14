@@ -2,11 +2,14 @@
 This test report contains the results of running TestTriangle on the original (buggy) [Triangle.py](../Triangle.py) code.
 
 ----------------------------------------------------------------------
+Running `python -m unittest TestTriangle` produced:
+```
 Ran 28 tests in 0.003s
 
 FAILED (failures=13, errors=3)
-----------------------------------------------------------------------
+```
 
+----------------------------------------------------------------------
 | Test ID | Input | Expected Results | Actual Result | Pass or Fail |
 |---|---|---|---|---|
 | testInvalidFloatInputA | (10.0,7,4) | InvalidInput | InvalidInput | Pass |
