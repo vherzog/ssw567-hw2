@@ -1,0 +1,34 @@
+testInvalidFloatInputA (TestTriangle.TestTriangles) ... ok
+
+testInvalidFloatInputB (TestTriangle.TestTriangles) ... ok
+testInvalidFloatInputC (TestTriangle.TestTriangles) ... ok
+testInvalidOverMaxInputA (TestTriangle.TestTriangles) ... ok
+testInvalidOverMaxInputB (TestTriangle.TestTriangles) ... ok
+testInvalidOverMaxInputC (TestTriangle.TestTriangles) ... ok
+testInvalidStringInputA (TestTriangle.TestTriangles) ... ok
+testInvalidStringInputB (TestTriangle.TestTriangles) ... ok
+testInvalidStringInputC (TestTriangle.TestTriangles) ... ok
+testInvalidSumSidesA (TestTriangle.TestTriangles) ... ok
+testInvalidSumSidesB (TestTriangle.TestTriangles) ... ok
+testInvalidSumSidesC (TestTriangle.TestTriangles) ... ok
+testInvalidUnderMinInputA (TestTriangle.TestTriangles) ... ok
+testInvalidUnderMinInputB (TestTriangle.TestTriangles) ... ok
+testInvalidUnderMinInputC (TestTriangle.TestTriangles) ... ok
+testValidEquilateralTriangles (TestTriangle.TestTriangles) ... ok
+testValidIsoscelesTriangleA (TestTriangle.TestTriangles) ... ok
+testValidIsoscelesTriangleB (TestTriangle.TestTriangles) ... ok
+testValidIsoscelesTriangleC (TestTriangle.TestTriangles) ... ok
+testValidRightTriangleA (TestTriangle.TestTriangles) ... ok
+testValidRightTriangleB (TestTriangle.TestTriangles) ... ok
+testValidRightTriangleC (TestTriangle.TestTriangles) ... ok
+testValidScaleneTriangleA (TestTriangle.TestTriangles) ... ok
+testValidScaleneTriangleB (TestTriangle.TestTriangles) ... ok
+testValidScaleneTriangleC (TestTriangle.TestTriangles) ... ok
+testValidSumSidesA (TestTriangle.TestTriangles) ... ok
+testValidSumSidesB (TestTriangle.TestTriangles) ... ok
+testValidSumSidesC (TestTriangle.TestTriangles) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.001s
+
+OK
