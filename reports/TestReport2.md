@@ -4,7 +4,9 @@ This test report contains the results of running TestTriangle on the original (b
 ----------------------------------------------------------------------
 Running `python -m unittest TestTriangle` produced:
 ```
-...
+Ran 28 tests in 0.001s
+
+OK
 ```
 
 ----------------------------------------------------------------------
