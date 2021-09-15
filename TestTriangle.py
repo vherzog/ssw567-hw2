@@ -54,19 +54,19 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classifyTriangle(1,1,0),'InvalidInput','All inputs must be 0 < input <= 200')
 
     def testInvalidSumSidesA(self):
-        self.assertEqual(classifyTriangle(10,7,2),'InvalidInput','10,7,2 is not a triangle')
+        self.assertEqual(classifyTriangle(10,7,2),'NotATriangle','10,7,2 is not a triangle')
 
     def testValidSumSidesA(self):
         self.assertEqual(classifyTriangle(10,7,4),'Scalene','10,7,4 is a Scalene triangle')
 
     def testInvalidSumSidesB(self):
-        self.assertEqual(classifyTriangle(7,10,2),'InvalidInput','7,10,2 is not a triangle')
+        self.assertEqual(classifyTriangle(7,10,2),'NotATriangle','7,10,2 is not a triangle')
 
     def testValidSumSidesB(self):
         self.assertEqual(classifyTriangle(7,10,4),'Scalene','7,10,4 is a Scalene triangle')
 
     def testInvalidSumSidesC(self):
-        self.assertEqual(classifyTriangle(7,2,10),'InvalidInput','7,2,10 is not a triangle')
+        self.assertEqual(classifyTriangle(7,2,10),'NotATriangle','7,2,10 is not a triangle')
 
     def testValidSumSidesC(self):
         self.assertEqual(classifyTriangle(7,4,10),'Scalene','7,2,4 is a Scalene triangle')
