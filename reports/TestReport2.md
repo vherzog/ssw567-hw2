@@ -1,5 +1,5 @@
 # Test Report
-This test report contains the results of running TestTriangle on the original (buggy) [Triangle.py](../Triangle.py) code.
+This test report contains the results of running TestTriangle on the new updated (fixed) [Triangle.py](../Triangle.py) code.
 
 ----------------------------------------------------------------------
 Running `python -m unittest TestTriangle` produced:
