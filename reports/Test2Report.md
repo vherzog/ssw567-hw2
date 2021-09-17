@@ -10,7 +10,7 @@ OK
 ```
 
 ----------------------------------------------------------------------
-| Test ID | Input | Expected Results | Actual Result | Pass or Pass |
+| Test ID | Input | Expected Results | Actual Result | Pass or Fail |
 |---|---|---|---|---|
 | testInvalidFloatInputA | (10.0,7,4) | InvalidInput | InvalidInput | Pass |
 | testInvalidFloatInputB | (10,'7',4) |  InvalidInput | InvalidInput  | Pass |
