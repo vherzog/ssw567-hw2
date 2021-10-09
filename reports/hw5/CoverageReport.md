@@ -3,6 +3,8 @@ Listed below are the results of running the code coverage analyzer `coverage` on
 
 Detailed reports on this repo's code coverage can also be found [on Codecov.io](https://app.codecov.io/gh/vherzog/ssw567-hw2).
 
+All changes made to the python scripts to get to 100% code coverage can be found in [Pull Request 1](https://github.com/vherzog/ssw567-hw2/pull/1/files).
+
 ## Run 1
 This run was performed before any changes to the code were made.
 ```

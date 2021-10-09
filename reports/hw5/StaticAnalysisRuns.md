@@ -1,6 +1,8 @@
 # Static Code Analysis Report
 Listed below are the results of running the static code analyzer `pylint` on the [triangle.py](../../triangle.py) python script and [test_triangle.py](../../test_triangle.py) unittest python script.
 
+All changes made to the python scripts to get to 10/10 static code rating can be found in [Pull Request 1](https://github.com/vherzog/ssw567-hw2/pull/1/files).
+
 ## triangle.py
 ### Run 1
 This run was performed before any changes were made to the original code.
