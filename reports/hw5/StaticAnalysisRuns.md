@@ -37,6 +37,52 @@ triangle.py:13:0: R0911: Too many return statements (8/6) (too-many-return-state
 Your code has been rated at 6.25/10 (previous run: 6.25/10, +0.00)
 ```
 
+### Run 3
+```
+$ pylint triangle.py
+************* Module triangle
+triangle.py:13:0: C0103: Function name "classifyTriangle" doesn't conform to snake_case naming style (invalid-name)
+triangle.py:13:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+
+triangle.py:13:0: C0103: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+triangle.py:13:0: C0103: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+triangle.py:13:0: R0911: Too many return statements (8/6) (too-many-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 6.88/10 (previous run: 6.88/10, +0.00)
+```
+
+### Run 4
+```
+$ pylint triangle.py
+************* Module triangle
+triangle.py:12:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+
+triangle.py:12:0: C0103: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+triangle.py:12:0: C0103: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+triangle.py:12:0: R0911: Too many return statements (8/6) (too-many-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 7.50/10 (previous run: 7.50/10, +0.00)
+```
+
+### Run 5
+```
+$ pylint triangle.py
+************* Module triangle
+triangle.py:12:0: R0911: Too many return statements (8/6) (too-many-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.38/10 (previous run: 9.38/10, +0.00)
+```
+
+### Run 6
+```
+$ pylint triangle.py
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+```
+
 ## test_triangle.py
 ### Run 1
 ```
