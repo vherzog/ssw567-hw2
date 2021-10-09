@@ -2,7 +2,7 @@
 Listed below are the results of running the code coverage analyzer `coverage` on the [Triangle.py](../Triangle.py) python script using the [TestTriangle.py](../TestTriangle.py) `unittest` test cases.
 
 ## Run 1
-This run was performed before any changes to the code were made. The HTML version of this report can be found [here](./htmlcov1/index.html).
+This run was performed before any changes to the code were made. The HTML version of this report can be found [here](https://htmlpreview.github.io/?https://github.com/vherzog/ssw567-hw2/blob/hw5-static-analysis/reports/hw5/htmlcov1/index.html).
 ```
 $ coverage run TestTriangle.py
 Running unit tests
