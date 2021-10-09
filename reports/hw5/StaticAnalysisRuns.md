@@ -2,6 +2,7 @@
 Listed below are the results of running the static code analyzer `pylint` on the [Triangle.py](../Triangle.py) python script.
 
 ## Run 1:
+This run was performed before any changes were made to the original code.
 ```
 $ pylint Triangle.py
 ************* Module Triangle
