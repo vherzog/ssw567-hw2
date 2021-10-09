@@ -5,7 +5,7 @@ This repo houses the source code for SSW 567 homeworks:
 
 All reports can be found in the [reports/](./reports/) directory.
 
-[![Build Status](https://app.travis-ci.com/vherzog/ssw567-hw2.svg?branch=main)](https://app.travis-ci.com/vherzog/ssw567-hw2)
+[![Build Status](https://app.travis-ci.com/vherzog/ssw567-hw2.svg?branch=main)](https://app.travis-ci.com/vherzog/ssw567-hw2)  [![codecov](https://codecov.io/gh/vherzog/ssw567-hw2/branch/hw5-static-analysis/graph/badge.svg?token=IE4K1ZFMIF)](https://codecov.io/gh/vherzog/ssw567-hw2)
 
 ## HW 05 Deliverables
 1. The GitHub URL containing the code that was analyzed: **https://github.com/vherzog/ssw567-hw2**
