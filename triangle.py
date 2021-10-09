@@ -16,12 +16,14 @@ def validate_input(side_a, side_b, side_c):
     """
     validity = True
     # verify that all 3 inputs are integers
-    if not(isinstance(side_a, int) and isinstance(side_b, int) and isinstance(side_c, int)):
+    if not(isinstance(side_a, int)
+           and isinstance(side_b, int)
+           and isinstance(side_c, int)):
         validity = False
     # require that the input values be >= 0 and <= 200
-    if side_a > 200 or side_b > 200 or side_c > 200:
+    elif side_a > 200 or side_b > 200 or side_c > 200:
         validity = False
-    if side_a <= 0 or side_b <= 0 or side_c <= 0:
+    elif side_a <= 0 or side_b <= 0 or side_c <= 0:
         validity = False
     return validity
 
@@ -36,17 +38,19 @@ def classify_triangle(side_a, side_b, side_c):
         If all three sides are equal, return 'Equilateral'
         If exactly one pair of sides are equal, return 'Isosceles'
         If no pair of  sides are equal, return 'Scalene'
-        If not a valid triangle, then return 'NotATriangle'
-        If the sum of any two sides equals the squate of the third side, then return 'Right'
+        If not a valid triangle, return 'NotATriangle'
+        If sum of any two sides equals the square of the 3rd, return 'Right'
     """
     if not validate_input(side_a, side_b, side_c):
-        return "NotATriangle"
+        return "InvalidInput"
 
     # This information was not in the requirements spec but
     # is important for correctness
     # the sum of any two sides must be strictly less than the third side
     # of the specified shape is not a triangle
-    if (side_a + side_b < side_c) or (side_b + side_c < side_a) or (side_a + side_c < side_b):
+    if (side_a + side_b < side_c) or \
+        (side_b + side_c < side_a) or \
+            (side_a + side_c < side_b):
         return 'NotATriangle'
 
     # now we know that we have a valid triangle

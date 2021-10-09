@@ -157,3 +157,52 @@ test_triangle.py:17:0: R0904: Too many public methods (28/20) (too-many-public-m
 --------------------------------------------------------------------
 Your code has been rated at -0.48/10 (previous run: -0.48/10, +0.00)
 ```
+
+### Run 2
+```
+$ pylint test_triangle.py
+************* Module test_triangle
+test_triangle.py:67:0: C0115: Missing class docstring (missing-class-docstring)
+test_triangle.py:68:4: C0103: Method name "testInvalidSumSidesa" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:68:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:72:4: C0103: Method name "testValidSumSidesa" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:72:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:76:4: C0103: Method name "testInvalidSumSidesb" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:76:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:80:4: C0103: Method name "testValidSumSidesb" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:80:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:84:4: C0103: Method name "testInvalidSumSidesc" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:84:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:88:4: C0103: Method name "testValidSumSidesc" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:88:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:92:4: C0103: Method name "testValidEquilateralTriangles" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:92:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:96:4: C0103: Method name "testValidRightTrianglea" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:96:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:100:4: C0103: Method name "testValidRightTriangleb" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:100:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:104:4: C0103: Method name "testValidRightTrianglec" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:104:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:108:4: C0103: Method name "testValidScaleneTrianglea" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:108:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:112:4: C0103: Method name "testValidScaleneTriangleb" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:112:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:116:4: C0103: Method name "testValidScaleneTrianglec" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:116:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:120:4: C0103: Method name "testValidIsoscelesTrianglea" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:120:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:124:4: C0103: Method name "testValidIsoscelesTriangleb" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:124:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_triangle.py:128:4: C0103: Method name "testValidIsoscelesTrianglec" doesn't conform to snake_case naming style (invalid-name)
+test_triangle.py:128:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 3.65/10 (previous run: 3.65/10, +0.00)
+```
+
+### Run 3
+```
+$ pylint test_triangle.py
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+```
