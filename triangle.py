@@ -1,11 +1,4 @@
-"""Simple python program to classify triangles.
-
-Created on Thu Jan 14 13:44:00 2016
-Updated Jan 21, 2018
-
-@author: jrr
-@author: rk
-"""
+"""Simple python program to classify triangles."""
 
 
 def validate_input(side_a, side_b, side_c):
