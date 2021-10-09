@@ -1,5 +1,5 @@
 # Static Code Analysis Report
-Listed below are the results of running the static code analyzer `pylint` on the [triangle.py](../triangle.py) python script.
+Listed below are the results of running the static code analyzer `pylint` on the [triangle.py](../../triangle.py) python script and [test_triangle.py](../../test_triangle.py) unittest python script.
 
 ## triangle.py
 ### Run 1
