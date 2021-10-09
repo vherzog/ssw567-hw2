@@ -6,9 +6,9 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - pylint triangle.py
-  - pylint test_triangle.py
-  - coverage run -m unittest test_triangle
+  - pylint Triangle.py
+  - pylint TestTriangle.py
+  - coverage run -m unittest TestTriangle
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
