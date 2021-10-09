@@ -1,7 +1,14 @@
 language: python
 python:
- - "3.5"
+  - "3.6"
 
-# command to run tests
+install:
+  - pip install -r requirements.txt
+
 script:
- - python -m unittest TestTriangle -v
+  - pylint triangle.py
+  - pylint test_triangle.py
+  - coverage run -m unittest test_triangle
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
