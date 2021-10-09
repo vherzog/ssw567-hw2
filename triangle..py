@@ -9,7 +9,8 @@ The primary goal of this file is to demonstrate a simple python program to class
 @author: rk
 """
 
-def classifyTriangle(a,b,c):
+
+def classifyTriangle(a, b, c):
     """
     Your correct code goes here...  Fix the faulty logic below until the code passes all of
     you test cases.
@@ -29,7 +30,7 @@ def classifyTriangle(a,b,c):
 
     # verify that all 3 inputs are integers
     # Python's "isinstance(object,type) returns True if the object is of the specified type
-    if not(isinstance(a,int) and isinstance(b,int) and isinstance(c,int)):
+    if not(isinstance(a, int) and isinstance(b, int) and isinstance(c, int)):
         return 'InvalidInput'
 
     # require that the input values be >= 0 and <= 200
@@ -47,11 +48,12 @@ def classifyTriangle(a,b,c):
         return 'NotATriangle'
 
     # now we know that we have a valid triangle
-    if ((a ** 2) + (b ** 2)) == (c ** 2) or ((b ** 2) + (c ** 2)) == (a ** 2) or ((a ** 2) + (c ** 2)) == (b ** 2):
+    if ((a ** 2) + (b ** 2)) == (c ** 2) or \
+        ((b ** 2) + (c ** 2)) == (a ** 2) or \
+            ((a ** 2) + (c ** 2)) == (b ** 2):
         return 'Right'
-    elif a == b and b == c and c == a:
+    if a == b and b == c and c == a:
         return 'Equilateral'
-    elif (a != b) and (b != c) and (a != c):
+    if (a != b) and (b != c) and (a != c):
         return 'Scalene'
-    else:
-        return 'Isosceles'
+    return 'Isosceles'
