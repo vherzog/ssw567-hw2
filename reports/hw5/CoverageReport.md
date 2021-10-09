@@ -1,10 +1,12 @@
 # Code Coverage Report
 Listed below are the results of running the code coverage analyzer `coverage` on the [Triangle.py](../Triangle.py) python script using the [TestTriangle.py](../TestTriangle.py) `unittest` test cases.
 
+Detailed reports on this repo's code coverage can also be found [on Codecov.io](https://app.codecov.io/gh/vherzog/ssw567-hw2).
+
 ## Run 1
-This run was performed before any changes to the code were made. The HTML version of this report can be found [here](https://htmlpreview.github.io/?https://github.com/vherzog/ssw567-hw2/blob/hw5-static-analysis/reports/hw5/htmlcov1/index.html).
+This run was performed before any changes to the code were made.
 ```
-$ coverage run TestTriangle.py
+coverage run -m unittest TestTriangle
 Running unit tests
 ............................
 ----------------------------------------------------------------------
@@ -12,12 +14,11 @@ Ran 28 tests in 0.002s
 
 OK
 $ coverage report -m
-zsh: correct 'report' to 'reports' [nyae]? n
 Name              Stmts   Miss  Cover   Missing
 
 -----------------------------------------------
-TestTriangle.py      63      0   100%
+TestTriangle.py      63      2    97%   105-106
 Triangle.py          17      0   100%
 -----------------------------------------------
-TOTAL                80      0   100%
+TOTAL                80      2    98%
 ```
